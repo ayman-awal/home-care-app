@@ -4,7 +4,7 @@ metadata:
   name: ts4u-homecare-ingress
   namespace: {{ .Values.namespace }}
   annotations:
-    # cert-manager.io/cluster-issuer: letsencrypt
+    cert-manager.io/cluster-issuer: letsencrypt
     service.beta.kubernetes.io/do-loadbalancer-protocol: "http"
     service.beta.kubernetes.io/do-loadbalancer-tls-ports: "443"
     service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
