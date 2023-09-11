@@ -4,7 +4,7 @@
 
 replicaCount: 1
 
-namespace: ts4u-staging
+namespace: homecare-staging
 
 limits:
   cpu: "250m"
@@ -14,11 +14,9 @@ requests:
   cpu: "250m"
   memory: "256Mi"
 
-host: homecare.ts4u.us
 
-
-host: homecare.ts4u.us
-wwwHost: www.homecare.ts4u.us
+host: staging.micareprovider.com
+wwwHost: www.staging.micareprovider.com
 
 hostSecret: homecare-tls-secret
 hostWwwSecret:  homecare-tls-secret
