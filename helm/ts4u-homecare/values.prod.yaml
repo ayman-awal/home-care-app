@@ -4,7 +4,7 @@
 
 replicaCount: 1
 
-namespace: ts4u-production
+namespace: homecare-production
 
 # limits:
 #   cpu: 1
