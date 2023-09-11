@@ -21,7 +21,7 @@ const Footer = () => {
                         {/* <li>Testimonials</li> */}
                         <a href='/contact'><li>Contact Us</li></a>
                         {/* <li>Career</li> */}
-                        <li>FAQs</li>
+                        {/* <li>FAQs</li> */}
                     </ul>
                 </div>
                 {/* <div>
@@ -44,16 +44,16 @@ const Footer = () => {
                     </ul>
                     <ul className='follow-us'>
                         <li className='first-li'>Follow Us</li>
-                        <li><img src='/images/footer/facebook.svg' height={30} width={30} alt=''/></li>
-                        <li><img src='/images/footer/instagram.svg' height={30} width={30} alt=''/></li>
+                        <a href='https://www.facebook.com/mihomecare.us' target='_blank'><li><img src='/images/footer/facebook.svg' height={30} width={30} alt=''/></li></a>
+                        {/* <li><img src='/images/footer/instagram.svg' height={30} width={30} alt=''/></li> */}
                         {/* <li><img src='/images/footer/youtube.svg' height={30} width={30} alt=''/></li> */}
-                        <li><img src='/images/footer/linkedin.svg' height={30} width={30} alt=''/></li>
-                        <li><img src='/images/footer/whatsapp.svg' height={30} width={30} alt=''/></li>
+                        {/* <li><img src='/images/footer/linkedin.svg' height={30} width={30} alt=''/></li> */}
+                        {/* <li><img src='/images/footer/whatsapp.svg' height={30} width={30} alt=''/></li> */}
                     </ul> 
                 </div>
             </div>
             <div className='copyright'>
-                Copyright 2023 MiHomeCare Inc. All Right Reserved
+                Copyright 2023 Mi Care Provider LLC. All Right Reserved
             </div>
         </div>
         

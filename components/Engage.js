@@ -23,7 +23,7 @@ export const Engage = () => {
                 </div> */}
                 <div className='call-us-button'>
                     <div>
-                        <a href="tel:+15862767347"><p>Call us now</p></a>
+                        <a href="tel:+15862767347"><p>Call Us Now</p></a>
                     </div>
                 </div>
             </div>

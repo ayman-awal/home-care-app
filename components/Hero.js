@@ -11,7 +11,7 @@ const Hero = () => {
                     personalized care for your loved ones. Our mission is simple - easing your difficulties 
                     by offering professional, compassionate support right at home.</p>
                     <div className='call-us-button'>
-                        <a href="tel:+15862767347"><p>Call us now</p></a>
+                        <a href="tel:+15862767347"><p>Call Us Now</p></a>
                     </div>
                     {/* <div className='hero-search-container'>
                         <div className='zip-input'>
