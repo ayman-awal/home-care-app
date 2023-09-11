@@ -1,0 +1,63 @@
+
+.carousel-wrapper {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 1100px;
+
+  p, .legend{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: "Fira Sans",Verdana,Helvetica,sans-serif;
+    width: 80%;
+  }
+}
+
+.review-section{
+  max-width: 900px;
+}
+
+.carousel-background{
+  background-color: #f2e9f3;
+  .reviews-wrapper{
+    padding: 50px;
+    
+  }
+}
+
+.imgHeading{
+  font-family: "Fira Sans",Verdana,Helvetica,sans-serif;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #862d7c;
+}
+
+
+@media (max-width: 768px) {
+  .imgHeading {
+    h2{
+      height: auto;
+      width: 100%;
+    }
+    font-size: 1.5em;
+  }
+
+  .legend {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  // img{
+  //   width: auto;
+  //   height: auto;
+  // }
+  .imgHeading {
+    font-size: 1.2em;
+  }
+
+  .legend {
+    font-size: 0.8em;
+  }
+}

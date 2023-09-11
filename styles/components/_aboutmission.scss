@@ -1,0 +1,48 @@
+.mission-container{
+    padding: 0 30px;
+}
+
+.our-mission-container{
+    padding: 50px 0px;
+    .our-mission{
+        display: flex;
+        gap: 100px;
+        
+        .contact-info{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center; /* Center horizontally */
+            align-items: center;
+            // gap: 70px;
+
+            a{
+                display: flex;
+                align-items: center;
+                justify-self: center;
+                flex-direction: row;
+                gap: 10px;
+                p{
+                    text-decoration: underline;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    &:hover{
+                        color: #3C3B6E;
+                    }
+                }
+                
+
+            }
+        }
+        @media (max-width: 950px) {
+            flex-direction: column;
+            gap: 20px;
+            .mission-img-container{
+                margin: 0 auto;
+                // img{
+                //     width: 100%;
+                // }
+            }
+        }
+    }
+}

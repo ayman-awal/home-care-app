@@ -1,0 +1,96 @@
+.our-team-container{
+    padding: 50px 30px;
+    .our-team{
+        display: flex;
+
+        // gap: 100px;
+        // background-color: aquamarine;
+        .our-team-p{
+            width: 60%;
+        }
+        .team-images{
+            max-width: 800px;
+            // background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                // max-width: 500px;
+                width: 100%;
+            }
+            // position: relative;
+            // display: flex;
+            // flex-wrap: wrap;
+            // height: 0;
+            // background-color: black;
+            // img{
+            //     position: absolute;
+            //     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+            //     // object-fit: cover;
+
+            //     border-radius: 16px;
+    
+            //     &:nth-child(1){
+            //         top: 25%;
+            //         left: 30%;
+            //         right: 10%;
+            //         // right: 400px;
+            //         // top: 50px;
+            //         border-radius: 16px;
+            //     }
+            //     &:nth-child(2){
+            //         top: 45%;
+            //         left: 58%;
+            //         right: 10%;
+            //         // left: 380px;
+            //         // top: 150px;
+            //         border-radius: 10.667px;
+            //     }
+            //     &:nth-child(3){
+            //         left: 70%;
+            //         right: 10%;
+            //         // right: 50px;
+            //         border-radius: 26.667px;
+            //     }
+            //     &:nth-child(4){
+            //         top: 70%;
+            //         left: 40%;
+            //         right: 10%;
+            //         // top: 250px;
+            //         // left: 280px;
+            //         border-radius: 20px;
+            //     }
+            //     &:nth-child(5){
+            //         left: 80%;
+            //         top: 55%;
+            //         right: 10%;
+            //         // right: 85px;
+            //         // top: 200px;
+            //         border-radius: 16px;
+            //     }
+            // }
+        }    
+        @media (max-width: 950px){
+            flex-direction: column;
+            .our-team-p{
+                width: 100%;
+            }
+
+        }
+        @media (max-width:850px) {
+            flex-direction: column;
+            gap: 0px;
+            // .team-images{
+            //     text-align: center;
+            // }
+            // .our-team-p{
+            //     width: 60%;
+            // }
+        }
+        @media (max-width: 612px){
+            .team-images{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+
+.services-container{
+    padding: 0 30px;
+    .services{
+        margin: 0 auto;
+        h3{
+            color: #006A4E;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            // line-height: 28px; /* 70% */
+            letter-spacing: 0.88px;
+            text-transform: capitalize;
+        }
+        .service-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .service-grid{
+            display: grid;
+            grid-template-columns: 1fr  1fr  1fr  1fr  1fr;
+            gap: 13px;
+            .service-row{
+                margin-top: 10px;
+            }
+            @media (max-width: 912px) {
+                grid-template-columns: 1fr  1fr  1fr;
+                gap: 10px;
+            }
+            @media (max-width: 450px) {
+                grid-template-columns: 1fr;
+                // gap: 10px;
+            }
+        }
+    }
+    
+}
+
+
+

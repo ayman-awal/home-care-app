@@ -1,0 +1,36 @@
+{
+  "name": "home-care-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.4",
+    "@zeit/next-sass": "^0.0.6",
+    "antd": "^5.8.1",
+    "next": "13.4.12",
+    "node-sass": "^9.0.0",
+    "react": "18.2.0",
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-responsive": "^9.0.2",
+    "sass-loader": "^13.3.2",
+    "styled-components": "^6.0.5",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12",
+    "sass": "^1.64.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

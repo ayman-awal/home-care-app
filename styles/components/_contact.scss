@@ -1,0 +1,150 @@
+.contact-container{
+    padding: 0 80px;
+    @media (max-width: 850px) {
+        padding: 0 30px;
+    }
+}
+
+.contact-hero{
+    display: grid;
+    grid-template-columns: 9% auto;
+    min-height: 100vh;
+    .red-background{
+        background-color: #B22234;
+    }
+    .bgd-img{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/contact/manonphone.png');
+        background-size: cover; 
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        h3{
+            color: #FFF;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 400;
+            // line-height: 68px; 
+            letter-spacing: 0.112px;
+        }
+        p{
+            width: 60%;
+            color: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            // line-height: 36px;
+        }
+        .call-us-button{
+            padding: 18px;
+            p{
+                margin: 0 auto;
+            }
+        }
+    }
+    @media (max-width: 612px) {
+        .bgd-img{
+            h3{
+                font-size: 35px;
+            }
+            p{
+                width: 95%;
+            }
+        }
+        .bgd-img{
+            padding-left: 12px;
+        }
+        
+    }
+}
+        
+.contact-flex{
+    display: flex;
+    gap: 100px;
+    font-style: normal;
+    padding: 60px 0;
+    h4{
+        color: #006A4E;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+    p{
+        color: #303030;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px; 
+        letter-spacing: 1.25px;
+        // margin: 0;
+
+    }
+    .contact-form{
+        font-style: normal;
+        font-weight: 700;
+        h3{
+            color: #B22234;
+            font-size: 25px;
+            line-height: 22px;
+        }
+        h4{
+            color: #3C3B6E;
+            font-size: 16px;
+            // line-height: 22px;
+        }
+
+        .call-us-button{
+            // margin: 30px auto;
+            padding: 8px;
+            max-width: 150px;
+            p{
+                color: #fff;
+            }
+        }
+
+        .input-fields{
+            .flex-input{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 50px;
+
+                @media (max-width: 612px) {
+                    grid-template-columns: 1fr;
+                    gap: 0;
+                }
+            }
+            label{
+                color: #3C3B6E;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+            }
+            Input{
+                margin: 10px 0;
+                @media (max-width: 612px) {
+                    margin: 12px 0;
+                }
+            }
+            
+            
+        }
+    }
+    @media (max-width: 850px) {
+        flex-direction: column;
+        .contact-cards{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    
+    
+}
+    
+    
+   
+
+
+
