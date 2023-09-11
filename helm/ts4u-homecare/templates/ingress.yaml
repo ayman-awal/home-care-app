@@ -8,32 +8,15 @@ metadata:
     service.beta.kubernetes.io/do-loadbalancer-protocol: "http"
     service.beta.kubernetes.io/do-loadbalancer-tls-ports: "443"
     service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
-    nginx.ingress.kubernetes.io/server-snippet: |
-      if ($host = '{{ .Values.wwwHost }}' ) {
-        return 301 https://{{ .Values.host }}$request_uri;
-      }
-      
+
 spec:
   ingressClassName: nginx
   tls:
   - hosts:
     - {{ .Values.host }}
-    secretName: {{ .Values.hostSecret }}
-  - hosts:
-    - {{ .Values.wwwHost }}
-    secretName: {{ .Values.hostWwwSecret }}
+    secretName: {{ .Values.host }}-tls
   rules:
   - host: {{ .Values.host }}
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: ts4u-homecare
-            port:
-              name: http
-  - host: {{ .Values.wwwHost }}
     http:
       paths:
       - path: /
