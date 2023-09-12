@@ -1,7 +1,15 @@
-import React from 'react'
+import {React, useState} from 'react'
+import { Modal } from "antd";
+import CallModal from './CallModal';
+
 
 const AboutTeam = () => {
+  const [toggleModal, setToggleModal] = useState(false);
+
+
   return (
+    <>
+        
     <div style={{backgroundColor:'#D9E9E4'}}>
         <div className='our-team-container'>
             <div className='our-team'>
@@ -12,9 +20,9 @@ const AboutTeam = () => {
                     sed elit amet tortor duis. Pretium cras mattis egestas nulla pulvinar 
                     quisque ut pellentesque quis. Semper enim tincidunt vitae quis odio.</p>
                 
-                    <div className='call-us-button'>
-                        <a href="tel:+15862767347">
-                            <p>Contact Team</p>
+                    <div className='call-us-button' onClick={() => setToggleModal(true)}>
+                        <a>
+                            <p>Contact Us</p>
                         </a>
                     </div>
                 </div>
@@ -33,6 +41,19 @@ const AboutTeam = () => {
         </div>
         
     </div>
+    <Modal
+        title={false}
+        visible={toggleModal}
+        onCancel={() => {
+            setToggleModal(false);
+        }}
+        footer={false}
+        width={530}
+      >
+
+        <CallModal setToggleModal={setToggleModal}></CallModal>
+      </Modal>
+    </>
   )
 }
 

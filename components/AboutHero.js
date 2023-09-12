@@ -5,10 +5,9 @@ const AboutHero = () => {
     <div className='about-hero-container'>
       <div className='about-hero'>
           <h1 className='title'>Don&apos;t believe blindly, believe knowingly</h1>
-          <p className='desc'>Lorem ipsum dolor sit amet consectetur. Nisl 
-          tristique rhoncus consectetur ullamcorper egestas 
-          ac facilisis. Vitae aliquet egestas et adipiscing 
-          sit. Viverra.</p>
+          <p className='desc'>We are a State Certified Medical/Health 
+          Care organization dedicated to enhancing the quality of life 
+          for those under our care.</p>
           <div className='call-us-button'>
               <p>Read Our Story</p>
           </div>

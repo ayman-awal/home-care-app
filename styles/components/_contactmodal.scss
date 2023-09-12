@@ -1,0 +1,49 @@
+.call-modal{
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    // border-radius: 8px;
+
+    .call-modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        // padding: 20px;
+        text-align: center;
+        position: relative;
+    
+        .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #333;
+    
+        &:hover {
+            color: #f00;
+        }
+        }
+    
+        h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        }
+    
+        p {
+        font-size: 16px;
+    
+        a {
+            color: #007bff;
+            text-decoration: none;
+    
+            &:hover {
+            text-decoration: underline;
+            }
+        }
+        }
+    }
+  
+}
