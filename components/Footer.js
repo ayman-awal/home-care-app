@@ -24,17 +24,7 @@ const Footer = () => {
                         {/* <li>FAQs</li> */}
                     </ul>
                 </div>
-                {/* <div>
-                    <ul>
-                        <li className='first-li'>Explore Our Services</li>
-                        <li>Personal Care</li>
-                        <li>Medication Management</li>
-                        <li>Companionship</li>
-                        <li>Meal Preparation</li>
-                        <li>Housekeeping</li>
-                        <li>Transportation</li>
-                    </ul>
-                </div> */}
+            
                 <div>
                     <ul>
                         <li className='first-li'>Call Us</li>
@@ -47,7 +37,6 @@ const Footer = () => {
                         <a href='https://www.facebook.com/mihomecare.us' target='_blank'><li><img src='/images/footer/facebook.svg' height={30} width={30} alt=''/></li></a>
                         {/* <li><img src='/images/footer/instagram.svg' height={30} width={30} alt=''/></li> */}
                         {/* <li><img src='/images/footer/youtube.svg' height={30} width={30} alt=''/></li> */}
-                        {/* <li><img src='/images/footer/linkedin.svg' height={30} width={30} alt=''/></li> */}
                         {/* <li><img src='/images/footer/whatsapp.svg' height={30} width={30} alt=''/></li> */}
                     </ul> 
                 </div>
