@@ -39,6 +39,11 @@
             text-align: center;
         }
     }
+    @media (max-width: 950px) {
+        .about-img-container{
+            margin: 0 auto;
+        }
+    }
             
 }
     

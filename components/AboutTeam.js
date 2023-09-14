@@ -16,9 +16,10 @@ const AboutTeam = () => {
                 <div>
                     <h4>Our Team</h4>
                     <h3>Our people with responsible and service oriented qualities</h3>
-                    <p className='our-team-p'>Lorem ipsum dolor sit amet consectetur. Quis interdum lorem fames 
-                    sed elit amet tortor duis. Pretium cras mattis egestas nulla pulvinar 
-                    quisque ut pellentesque quis. Semper enim tincidunt vitae quis odio.</p>
+                    <p className='our-team-p'>At MI Care Provider, our dedicated team of experts is 
+                    committed to enhancing lives with personalized home care services. We prioritize safety, 
+                    compassion, and innovation, ensuring each individual lives with dignity and happiness. 
+                    Join our mission to make every home a sanctuary of comfort and independence.</p>
                 
                     <div className='call-us-button' onClick={() => setToggleModal(true)}>
                         <a>
@@ -29,12 +30,6 @@ const AboutTeam = () => {
 
                 <div className='team-images'>
                     <img src='/images/about/teamicons.png'/>
-                    {/* <img src='/images/about/member1.png' alt=''/>
-                    <img src='/images/about/member2.png' alt=''/>
-                    <img src='/images/about/member3.png' alt=''/>
-                    <img src='/images/about/member4.png' alt=''/>
-                    <img src='/images/about/member5.png' alt=''/> */}
-
                 </div>
             </div> 
             

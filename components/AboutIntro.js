@@ -29,7 +29,7 @@ export const AboutIntro = () => {
                             <p><a href='/contact'>Contact Us <img src='images/p2p/arrow.svg' alt='arrow' /></a></p>
                         </div>
                     </div>
-                    <div className='mission-img-container'>
+                    <div className='about-img-container'>
                         <img src='/images/about/hands.jpeg' alt='' className='img-border'/>
                     </div>
                 </div>
