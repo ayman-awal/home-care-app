@@ -1,13 +1,13 @@
 import React from 'react'
 
-export const ReviewComponent = () => {
+export const ReviewComponent = ({name, desc}) => {
   return (
     <div className='review-container'>
         <div className='reviews'>
             <div className='review-header'>
                 <img src='images/p2p/avatar.png' alt=''/>
                 <div className='info-user'>
-                    <p>Ayman Shehzad Awal</p>
+                    <p>{name}</p>
                     <div className='user-location'>
                         <img src='images/p2p/location.svg' alt=''/>
                         <p>Michigan Resident</p>
@@ -23,7 +23,7 @@ export const ReviewComponent = () => {
                 <img src='images/p2p/star.svg' alt=''/>
             </div>
             <div className='review-text'>
-                <p>Lorem ipsum dolor sit amet consectetur Pharetra nam et sed cursus. Hac testdas uddes.</p>
+                <p>{desc}</p>
             </div>
         </div>
         

@@ -17,7 +17,7 @@ export const Services = () => {
         {id: 11, title: 'Rehabilitation Care', img: '/images/p2p/services/rehab.png', desc: 'Assisting individuals in their recovery process after surgery or illness.'},
         {id: 12, title: 'Chronic Management', img: '/images/p2p/services/chronic.png', desc: 'Care for individuals with chronic illnesses, such as diabetes or heart disease.'},
         {id: 13, title: 'Palliative Care', img: '/images/p2p/services/palliative.png', desc: 'Focusing on pain management and comfort for seriously ill individuals.'},
-        {id: 14, title: '24-Hour Care', img: '/images/p2p/services/24:7.png', desc: 'Continuous care provided around the clock.'},
+        {id: 14, title: '24-Hour Care', img: '/images/p2p/services/247.png', desc: 'Continuous care provided around the clock.'},
         {id: 15, title: 'Specialized Care', img: '/images/p2p/services/specializedcare.png', desc: 'Tailored services for specific conditions or needs.'},
 
     ]
