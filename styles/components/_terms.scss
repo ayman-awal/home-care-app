@@ -1,0 +1,36 @@
+.terms-container{
+    padding: 0px 30px;
+    background-color: #D9E9E4;
+    .terms-content{
+        padding: 10px 0px 50px;
+        p {
+            line-height: 1.4;
+            color: black;
+            span{
+                font-weight: bold;
+            }
+        }
+        .web-link{
+            font-weight: bold;
+            // color: ;
+            &:hover{
+                color: #3A7A71;
+                text-decoration: underline;
+              }
+        }
+        ul li {
+            line-height: 1.4;
+        }
+        @media (max-width: 450px) {
+            h1{
+                font-size: 22px
+            }
+            h2{
+                font-size: 20px
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}

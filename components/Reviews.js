@@ -10,16 +10,16 @@ import { ReviewComponent } from './ReviewComponent'
 
 export const Reviews = () => {
     const reviews = [
-        {name: 'SK Uddin', desc: "MI Care Provider has made a world of difference in my grandfather's life. The personalized attention and 24/7 assistance ensure that he's always safe and comfortable."},
-        {name: 'Maria Hassan', desc:  "The medication management system is truly a game-changer! I no longer worry about my dad missing his meds. Thanks to MI Care Provider's innovative app."},
-        {name: 'দোলন খন্দকার', desc:  "MI Care Provider আমার মায়ের জীবনে একটি আশীর্বাদ। তারা আমার মাকে তার প্রয়োজনীয় সমস্ত যত্ন প্রদান করে এবং তাকে তার বাড়িতে আরামদায়ক এবং নিরাপদ বোধ করতে সাহায্য করে।"},
-        {name: 'Rakibur Rahman', desc:  "Every care provider from MI Care Provider has been compassionate, dependable, and professional. Knowing that my mother is in good hands gives me peace of mind."},
-        {name: 'Rafsan Ahmed', desc:  "The holistic well-being approach is exceptional. It's not just about health; it's about ensuring happiness in every moment. MI Care Provider does just that!"},
-        {name: 'আবু বকর', desc:  "MI Care Provider আমার মায়ের যত্ন নেওয়ায় আমি খুবই খুশি। তারা অত্যন্ত দক্ষ এবং সহায়ক। তাদের সাথে আমার মা খুব ভাল আছে। বাড়িতে তারা আমার মাকে আরামদায়ক এবং নিরাপদ বোধ করতে সাহায্য করছে।"},
-        {name: 'Zarin Tasnim', desc:  "From meal prep to medication reminders, MI Care Provider has become integral to our family. Their comprehensive services are a blessing."},
-        {name: 'Ramisa Hossain', desc:  "A friend recommended MI Care Provider, and it's the best decision we made for our grandmother. The tailored care services cater to her unique needs."},
-        {name: 'Fariha Khan', desc:  "My sister, who's physically disabled, has seen a remarkable improvement in her daily life. All thanks to the reliable and trustworthy care provided by MI Care Provider."},
-        {name: 'মিতুল দাস', desc:  "MI Care Provider আমার জীবনকে অনেক সহজ করে দিয়েছে। তারা আমার সমস্ত যত্ন নেয়, তাই আমি আমার খাবার দাবার ও সময় মতো ওষধ গ্রহণ করতে পারছি। তারা অত্যন্ত দক্ষ এবং পেশাদার। আমি তাদেরকে সত্যিই প্রশংসা করি।"},
+        {name: 'SK Uddin',img: 'images/reviews/Image-60.png',desc: "MI Care Provider has made a world of difference in my grandfather's life. The personalized attention and 24/7 assistance ensure that he's always safe and comfortable."},
+        {name: 'Maria Hassan',img: 'images/reviews/Image-52.png', desc:  "The medication management system is truly a game-changer! I no longer worry about my dad missing his meds. Thanks to MI Care Provider's innovative app."},
+        {name: 'দোলন খন্দকার',img: 'images/reviews/Image-51.png', desc:  "MI Care Provider আমার মায়ের জীবনে একটি আশীর্বাদ। তারা আমার মাকে তার প্রয়োজনীয় সমস্ত যত্ন প্রদান করে এবং তাকে তার বাড়িতে আরামদায়ক এবং নিরাপদ বোধ করতে সাহায্য করে।"},
+        {name: 'Rakibur Rahman',img: 'images/reviews/Image-61.png', desc:  "Every care provider from MI Care Provider has been compassionate, dependable, and professional. Knowing that my mother is in good hands gives me peace of mind."},
+        {name: 'Rafsan Ahmed',img: 'images/reviews/Image-62.png', desc:  "The holistic well-being approach is exceptional. It's not just about health; it's about ensuring happiness in every moment. MI Care Provider does just that!"},
+        {name: 'আবু বকর',img: 'images/reviews/Image-63.png', desc:  "MI Care Provider আমার মায়ের যত্ন নেওয়ায় আমি খুবই খুশি। তারা অত্যন্ত দক্ষ এবং সহায়ক। তাদের সাথে আমার মা খুব ভাল আছে। বাড়িতে তারা আমার মাকে আরামদায়ক এবং নিরাপদ বোধ করতে সাহায্য করছে।"},
+        {name: 'Zarin Tasnim',img: 'images/reviews/Image-50.png', desc:  "From meal prep to medication reminders, MI Care Provider has become integral to our family. Their comprehensive services are a blessing."},
+        {name: 'Ramisa Hossain',img: 'images/reviews/Image-53.png', desc:  "A friend recommended MI Care Provider, and it's the best decision we made for our grandmother. The tailored care services cater to her unique needs."},
+        {name: 'Fariha Khan',img: 'images/reviews/Image-54.png', desc:  "My sister, who's physically disabled, has seen a remarkable improvement in her daily life. All thanks to the reliable and trustworthy care provided by MI Care Provider."},
+        {name: 'মিতুল দাস',img: 'images/reviews/Image-64.png', desc:  "MI Care Provider আমার জীবনকে অনেক সহজ করে দিয়েছে। তারা আমার সমস্ত যত্ন নেয়, তাই আমি আমার খাবার দাবার ও সময় মতো ওষধ গ্রহণ করতে পারছি। তারা অত্যন্ত দক্ষ এবং পেশাদার। আমি তাদেরকে সত্যিই প্রশংসা করি।"},
         
     ]
   return (
@@ -58,7 +58,7 @@ export const Reviews = () => {
                         {reviews.map((item, index) => (
                             <SwiperSlide key={index} style={{ margin: '0px 10px' }}>
                             {
-                                <ReviewComponent name={item.name} desc={item.desc}/>
+                                <ReviewComponent name={item.name} desc={item.desc} img={item.img}/>
                             }
                             </SwiperSlide>
                         ))}

@@ -20,6 +20,8 @@ const Footer = () => {
                         {/* <li>Our Services</li> */}
                         {/* <li>Testimonials</li> */}
                         <a href='/contact'><li>Contact Us</li></a>
+                        <a href='/privacy-policy'><li>Privacy Policy</li></a>
+                        <a href='/terms-and-conditions'><li>Terms & Conditions</li></a>
                         {/* <li>Career</li> */}
                         {/* <li>FAQs</li> */}
                     </ul>
@@ -42,7 +44,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='copyright'>
-                Copyright 2023 Mi Care Provider LLC. All Right Reserved
+                Copyright 2023 MI Care Provider LLC. All Right Reserved
             </div>
         </div>
         

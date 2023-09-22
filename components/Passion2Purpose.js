@@ -31,7 +31,7 @@ export const Passion2Purpose = () => {
                 <div className='info-card'>
                     <h4>Our Mission</h4>
                     <p>
-                    At MiHomeCare, our mission is to offer outstanding home care that enriches our clients' 
+                    At MI Care Provider, our mission is to offer outstanding home care that enriches our clients' 
                     lives and assures their families. We focus on personalized and compassionate service, attending 
                     to both physical and emotional well-being. We're not just caregivers; we're a part of your family, 
                     dedicated to ensuring top-quality care in the comfort of home.

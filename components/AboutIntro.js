@@ -22,7 +22,7 @@ export const AboutIntro = () => {
                         and culture while coping with health issues or disabilities. We recognize the importance of culturally 
                         sensitive care, providing support that makes them feel understood and valued. Our commitment extends to 
                         individuals of all ages who require assistance with health challenges, immobility, or daily tasks like 
-                        medication management and personal hygiene. MI Home Care Provider strives to offer personalized care and 
+                        medication management and personal hygiene. MI Care Provider strives to offer personalized care and 
                         companionship, ensuring that everyone, regardless of age or background, can lead fulfilling lives with the
                          help they need.</p>
                         <div className='info-card-bottom'>

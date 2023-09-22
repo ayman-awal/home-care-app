@@ -9,10 +9,10 @@ export const Engage = () => {
     <> 
         <div className='engage-container'>
             <div className='engage-content'>
-                <h3>MiHomeCare: Elevating Senior Care with Personalized In-Home Services</h3>
+                <h3>MI Care Provider: Elevating Senior Care with Personalized In-Home Services</h3>
                 <div className='p-div'>
                     <p>Our dedicated homecare service for elderly individuals prioritizes comfort, 
-                    companionship, and wellness. Explore how MiHomeCare&apos;s experienced caregivers and 
+                    companionship, and wellness. Explore how MI Care Provider&apos;s experienced caregivers and 
                     tailored programs redefine elderly care, promoting independence and well-being in 
                     the golden years</p>
                 </div>
