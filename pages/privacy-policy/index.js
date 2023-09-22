@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import About from '../../components/About';
+import Privacy from '../../components/Privacy';
 
-const about = () => {
+const privacy = () => {
   return (
     <div>
       <Layout>
-        <About />
+        <Privacy />
       </Layout>
     </div>
   )
 }
 
 
-export default about;
+export default privacy;

@@ -12,7 +12,7 @@ const AboutMission = () => {
                 <div>
                     <h4>Our Mission</h4>
                     <h3>Best place and room with high tech facilities</h3>
-                    <p>Our goal at MiHomeCare is to enable every person in our care to live 
+                    <p>Our goal at MI Care Provider is to enable every person in our care to live 
                     with dignity, comfort, and independence in the comfort of their own home. 
                     This goal is both obvious and unshakable. We are fully committed to providing 
                     each customer with individualized home care services that are unmatched in the 

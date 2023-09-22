@@ -12,7 +12,7 @@ const Hero = () => {
                 <div className='left-text'>
                     <div>
                         <h3 className='hero-heading'>Bringing <span>Joy and Care</span> Is Our Ultimate Commitment</h3>
-                        <p className='hero-desc'>Welcome to MiHomeCare, a home care agency committed to providing top-quality, 
+                        <p className='hero-desc'>Welcome to MI Care Provider, a home care agency committed to providing top-quality, 
                         personalized care for your loved ones. Our mission is simple - easing your difficulties 
                         by offering professional, compassionate support right at home.</p>
                         <div className='call-us-button' onClick={() => setToggleModal(true)}>
