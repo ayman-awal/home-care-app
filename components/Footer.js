@@ -20,6 +20,7 @@ const Footer = () => {
                         {/* <li>Our Services</li> */}
                         {/* <li>Testimonials</li> */}
                         <a href='/contact'><li>Contact Us</li></a>
+                        <a href='/forms'><li>Forms</li></a>
                         <a href='/privacy-policy'><li>Privacy Policy</li></a>
                         <a href='/terms-and-conditions'><li>Terms & Conditions</li></a>
                         {/* <li>Career</li> */}
