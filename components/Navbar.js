@@ -56,6 +56,9 @@ const Navbar = () => {
                         </div>
                       )} */}
                     </li>
+                    <li>
+                      <a className='menu-item' onClick={() => handleMenuItemClick('/forms')}>Forms</a>
+                    </li>
                     {/* <li>
                       <span onClick={handleWhatWeDoClick}>What We Do</span>
                       <a className='menu-item' onClick={() => handleMenuItemClick('/contact')}>Contact Us</a>
@@ -90,6 +93,9 @@ const Navbar = () => {
                     <a href='/home-health'>Home Health</a>
                   </div> 
                 </li> */}
+                <li>
+                  <a href='/forms'>Forms</a>
+                </li>
                 <li>
                   <a href='/contact'>Contact Us</a>
                 </li>
