@@ -1,0 +1,43 @@
+
+.forms-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D9E9E4;
+    
+    .forms-content{
+        margin: 30px;
+        .form-card {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin-top: 20px;
+        
+            .form-title {
+              font-size: 20px;
+              margin-bottom: 10px;
+            }
+        
+            .download-button {
+              background-color: #007bff;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              padding: 10px 20px;
+              cursor: pointer;
+              transition: background-color 0.3s;
+        
+              &:hover {
+                background-color: #0056b3;
+              }
+            }
+          }
+
+    }
+    
+  }
+  
