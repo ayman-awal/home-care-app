@@ -12,8 +12,9 @@
     .logo-col{
       width: 30%;
       .logo{
-        max-width: 250px;
+        max-width: 300px;
         height: 50px;
+        background-color: #8eb3ff;
         img {
           @media (max-width:650px) {
             width: 170px;

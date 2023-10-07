@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className='wrapper'>
             <div className='logo'>
               <a href='/'>
-                <img src="/images/navbar/mihomecare.png" alt="Logo" />
+                <img src="/images/navbar/micareprovider.png" alt="Logo" />
               </a>
             </div>
             {isMobile ? 
