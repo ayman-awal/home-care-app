@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer-content'>
             <div className='footer-grid'>
                 <div className='logo-col'>
-                    <a href='/'><img src="/images/footer/white-logo.png" className='logo' alt="Logo"/></a>
+                    <a href='/'><img src="/images/footer/micareprovider.png" className='logo' alt="Logo"/></a>
                     <p>Mi Care Provider is not just a service; it's a commitment. We are here to ensure that 
                     every individual under our care lives their best life in the comfort of their home. 
                     Join us in our mission to bring happiness, safety, and a high standard of living to every home.</p>
