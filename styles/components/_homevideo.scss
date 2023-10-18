@@ -1,6 +1,7 @@
 .homeVideo2_container {
-    max-width: 80%;
-    padding: 30px 0;
+    max-width: 1300px;
+    // max-width: 80%;
+    padding: 30px;
     @include getDown(992px) {
         .video_container{
             iframe {
