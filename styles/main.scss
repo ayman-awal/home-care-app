@@ -1,3 +1,6 @@
+// mixin
+@import "./common/mixin/index";
+
 // Redesign
 @import './components/hero';
 @import './components/passion2purpose';
@@ -27,7 +30,7 @@
 // @import './components/join';
 // @import './components/story';
 // @import './components/mission';
-@import './components/contact';
-
+@import './components/contact'; 
+@import './components/homevideo';
 // @import './components/homecare';
 
